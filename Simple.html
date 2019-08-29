@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jreamm</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+    ul {
+      text-decoration: none;
+      list-style-type: none;
+      display: inline-block;
+      margin: auto;
+      position: absolute;
+      right: 25px;
+      background-color: none;
+      height: 100%;
+    }
+    li {
+      display: inline-block;
+      margin: auto;
+      background-color: none;
+      height: 100%;
+      padding: 18px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    nav {
+      background-color: #1f2429;
+      max-width: 100%;
+      min-width: 400px;
+      height: 55px;
+      width: 800px;
+      left: 50%;
+      top: -1px;
+      transform: translateX(-50%);
+      position: fixed;
+      z-index: 10;
+      border-radius: 0px 0px 5px 5px;
+      border-color: gray;
+      border-style: solid;
+      border-width: thin;
+    }
+    nav p {
+      display: inline-block;
+      font-family: 'Lobster', cursive;
+      font-size: 30px;
+      height: auto;
+      max-height: 55px;
+      margin: 0px;
+      padding: 7px 15px;
+      background-color: none;
+    }
+    li a {
+      font-family: monospace;
+      text-decoration: none;
+      max-height: 55px;
+      padding: 0px;
+      color: white;
+      font-size: 16px;
+      background-color: none;
+    }
+    li a:hover {
+      color: #DDD;
+    }
+    html {
+      background-color: #31363b;
+      font-family: monospace;
+      color: white;
+    }
+    #portrait {
+      display: block;
+      position: relative;
+      top: 80px;
+      margin: auto;
+    }
+    #name {
+      display: block;
+      position: relative;
+      margin: auto;
+      font-size: 33px;
+      top: 80px;
+    }
+    #heading {
+      text-align: center;
+    }
+    #description {
+      font-size: 20px;
+      position: relative;
+      top: 65px;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+    #social-links {
+      position: relative;
+      display: grid;
+      top: 50px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 50px;
+      grid-column-gap: 15px;
+      grid-template-areas: "git" "insta" "twit";
+      max-width: 250px;
+      height: 50px;
+      justify-items: center;
+      margin: auto;
+    }
+    #content {
+      text-align: center;
+      position: relative;
+      top: 75px;
+    }
+    .contentCard {
+      background-color: #1f2429;
+      max-width: 800px;
+      margin: auto;
+      min-height: 450px;
+      border-radius: 15px;
+      border-color: gray;
+      border-width: thin;
+      border-style: solid;
+    }
+    #Projects {
+      position: relative;
+      top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <p>Jreamm.com</p>
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="">Projects</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="heading">
+    <img id="portrait" src="Portrait.png"></img>
+    <p id="name">Jreamm O'riordan</p>
+    <p id="description">Developer / Student / Tutor</p>
+    <div id="social-links">
+      <a href="https://github.com/jreamm"><img class="logo" src="githubLogo.svg"></img></a>
+      <a href="https://www.instagram.com/lybbertjaidon/"><img class="logo" src="insta.png"></img></a>
+      <a href="https://twitter.com/jaidon_jreamm"><img class="logo" src="twitterLogo.png"></img></a>
+    </div>
+  </div>
+  <div id="content">
+    <div id="About" class="contentCard">
+      <h1>About</h1>
+      <p>
+    </div>
+    <div id="Projects" class="contentCard">
+      <h1>Projects</h1>
+    </div>
+  </div>
+</body>
+</html>
